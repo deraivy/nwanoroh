@@ -7,5 +7,7 @@ export default defineNuxtConfig({
     '@nuxt/icon',
     '@nuxt/image',
     '@nuxtjs/tailwindcss'
-  ]
+  ],
+  css:["./styles/main.css"],
+  plugins: ["./plugins/aos.client.js"]
 })
